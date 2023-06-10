@@ -28,4 +28,4 @@ const todoSchema = mongoose.Schema(
 )
 
 // export
-export default mongoose.models || mongoose.model("Todos", todoSchema )
+export default mongoose.model("Todos", todoSchema )
