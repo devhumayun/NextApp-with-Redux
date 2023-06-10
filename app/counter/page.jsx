@@ -1,7 +1,11 @@
 "use client"
-
 import { useDispatch, useSelector } from "react-redux";
 import { counterSelector, decrement, increment } from "./counterSlice";
+
+export const metaData = ({
+  title: "Counter",
+  description: "Counter Page"
+})
 
 const counter = () => {
   const {count} = useSelector(counterSelector)
